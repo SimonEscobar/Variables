@@ -1,0 +1,45 @@
+Una variable es un espacio en la memoria donde se almacena un valor. Se usa para guardar datos que pueden cambiar a lo largo de la ejecución del programa.
+Las variables se usan para almacenar datos (números, textos, listas, etc.), hacer cálculos y procesar información, así como reutilizar valores en diferentes partes del código.
+Para imprimir una variable en Python se usa la función print(). Por ejemplo
+
+nombre = "Simon"
+edad = 25
+print("Nombre:", nombre)
+print("Edad:", edad)
+
+Python tiene varios tipos de datos:
+int (Entero): Números enteros, ejemplo: x = 10.
+float (Decimal): Números con decimales, ejemplo: pi = 3.14.
+str (Cadena de texto): Texto o caracteres, ejemplo: nombre = "Ana".
+bool (Booleano): Puede ser True o False, ejemplo: es_mayor = True.
+list (Lista): Conjunto de valores ordenados, ejemplo: colores = ["rojo", "azul"].
+tuple (Tupla): Similar a la lista, pero inmutable, ejemplo: coordenadas = (10, 20).
+dict (Diccionario): Almacena pares clave-valor, ejemplo: persona = {"nombre": "Ana", "edad": 25}.
+
+Al crear variables, debes seguir estas reglas:
+Pueden contener letras, números y guiones bajos (_).
+No pueden comenzar con un número.
+No pueden ser palabras reservadas de Python (como print, if, else, etc.).
+Se recomienda usar nombres descriptivos para mayor claridad.
+
+Listas y Diccionarios en Python
+Las listas y los diccionarios son tipos de datos en Python que permiten almacenar múltiples valores en una sola variable, pero tienen diferencias clave en su estructura y uso.
+
+Listas (list)
+Una lista es una colección ordenada de elementos, que pueden ser de diferentes tipos (números, cadenas, otras listas, etc.).
+Se definen usando corchetes [].
+
+frutas = ["manzana", "banano", "mango", "naranja"]
+print(frutas)  # Salida: ['manzana', 'banano', 'mango', 'naranja']
+
+Diccionarios (dict)
+Un diccionario es una colección de pares clave: valor.
+Se define usando llaves {}.
+
+persona = {
+    "nombre": "Simon",
+    "edad": 25,
+    "ciudad": "Medellin"
+}
+print(persona)  
+# Salida: {'nombre': 'Simon', 'edad': 25, 'ciudad': 'Medellin'}
