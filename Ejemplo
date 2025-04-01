@@ -1,0 +1,9 @@
+# Definiendo variables
+nombre = "Ana"
+edad = 25
+altura = 1.65
+
+# Imprimiendo valores
+print("Nombre:", nombre)
+print("Edad:", edad)
+print("Altura:", altura, "metros")
