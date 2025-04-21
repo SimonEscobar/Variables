@@ -1,7 +1,7 @@
 # Definiendo variables
-nombre = "Ana"
+nombre = "Simon"
 edad = 25
-altura = 1.65
+altura = 1.80
 
 # Imprimiendo valores
 print("Nombre:", nombre)
